@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "btnwtn"
+theme = "blank"
+
+[[menu.main]]
+  name = "about"
+  url = "/about"

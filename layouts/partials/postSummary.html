@@ -1,0 +1,17 @@
+<article>
+  <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+
+  {{ with .Params.image }}
+    <img src="{{ $.Site.BaseURL }}images/{{ . }}">
+  {{ end }}
+
+  {{ range .Params.tags }}
+    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+  {{ end }}
+
+  <div>
+    {{ .Summary }}
+    <a href="{{ .Permalink }}">Read more…</a>
+  </div>
+</article>
