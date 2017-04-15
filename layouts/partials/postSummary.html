@@ -3,7 +3,7 @@
   <time>{{ .Date.Format "Jan 2, 2006" }}</time>
 
   {{ with .Params.image }}
-    <img src="{{ $.Site.BaseURL }}images/{{ . }}">
+    <img class="db img-fluid" src="{{ $.Site.BaseURL }}images/{{ . }}">
   {{ end }}
 
   {{ range .Params.tags }}

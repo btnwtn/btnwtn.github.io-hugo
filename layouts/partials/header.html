@@ -12,7 +12,7 @@
     {{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
   </head>
   <body>
-    <header>
+    <header class="container">
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
       <nav>
         <ul>

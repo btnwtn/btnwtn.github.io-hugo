@@ -3,12 +3,39 @@ html {
 }
 
 body {
+  color: #262020;
   font-family: -apple-system, BlinkMacSystemFont,
-                'avenir next', avenir,
-                helvetica, 'helvetica neue',
-                ubuntu,
-                roboto, noto,
-                'segoe ui', arial,
-                sans-serif;;
+  'avenir next', avenir,
+  helvetica, 'helvetica neue',
+  ubuntu,
+  roboto, noto,
+  'segoe ui', arial,
+  sans-serif;;
 }
 
+a {
+  color: #514DD6;
+}
+a:hover,
+a:focus {
+  color: #2B2392;
+}
+a:visited {
+  color: #1C1575;
+}
+
+.container {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: .25rem;
+  padding-right: .25rem;
+}
+
+.db {
+  display: block;
+}
+
+.img-fluid {
+  max-width: 100%;
+}

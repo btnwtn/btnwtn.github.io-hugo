@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
-<main>
+<main class="container">
 {{ range where .Data.Pages "Section" "post" }}
   {{ partial "postSummary.html" . }}
 {{ end }}
 </main>
-{{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
