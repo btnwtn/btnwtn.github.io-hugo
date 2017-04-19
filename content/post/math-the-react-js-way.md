@@ -20,8 +20,9 @@ action. Consider this old-school almost obfuscated math problem:
 
 Incredibly hard to parse. But with *react-real-math* this is a breeze to understand:
 
-```
+```jsx
 import { computeValue, Multiple, One, Two } from 'react-real-math'
+
 console.log(computeValue(
   <Multiply by={<Two/>}>
     <One/>

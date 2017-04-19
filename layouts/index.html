@@ -1,5 +1,14 @@
 {{ partial "header.html" . }}
 <main class="container">
+<header class="f4@md my5">
+  <p class="mb1 bold">ABOUT ME</p>
+  <p class="mt0">I am a Frontend Engineer focused on building performant and
+  creative web applications. I enjoy using <code>Javascript</code>,
+  and <code>React</code> to build projects and teach people how to make websites.
+  I think Functional Programming is fun and that PWAs are really tight. In my
+  spare time I play guitar, “do art”, and work on fun side-projects.
+  <a href="mailto:btnwtn@gmail.com">hmu</a>.</p>
+</header>
 {{ range where .Data.Pages "Section" "post" }}
   {{ partial "postSummary.html" . }}
 {{ end }}
