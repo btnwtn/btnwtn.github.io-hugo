@@ -1,4 +1,4 @@
-baseURL = "http://btnwtn.com/"
+baseURL = "https://btnwtn.com/"
 languageCode = "en-us"
 title = "btnwtn"
 theme = "blank"
